@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500&family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Domine:wght@400;500&family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed&family=Rajdhani&display=swap');
+
+
+:root {
+    --black: #353535;
+    --dark: #284B63;
+    --gray: #3C6E71;
+    --ligth: #D9D9D9;
+    --white: #FFFFFF;
+}
+
+body {
+    background-image: url("../src/assets/wallpaperflare.com_wallpaper.jpg");
+    /* background-color: var(--ligth); */
+    background-size:100%;
+    background-position: top;
+
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.item {
+    background-color: var(--white);
+    border-radius: 5px;
+    display: inline-block;
+    width: 10rem;
+    align-self: stretch;
+    text-align: center;
+    height: 6rem;
+    background-color:rgb(163, 169, 224);
+    padding: 0rem 0.5rem;
+    transition: all 1.5s linear;
+}
+
+.item:hover {
+    background-color: var(--dark);
+    color: var(--white);
+    box-shadow: 5px 5px 10px var(--dark);
+    transform: scale(1.1);
+    transform: rotate(360deg);
+}
+
+.emoji {
+    font-size: 250%;
+}
+
+nav {
+    background: var(--white);
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    padding: 0px 0.75rem;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav>h2 {
+    display: inline;
+}
+
+nav>a {
+    float: right;
+    padding-top: 5px;
+    text-decoration: none;
+    color: var(--dark);
+}
+
+.search {
+    text-align: center;
+    margin: 1rem;
+}
+
+.search>input {
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0.5rem;
+    border: none;
+}
+
+.result-non {
+    text-align: center;
+    font-size: 100px;
+}
+
+.not-found>h6 {
+    margin-left: 800px;
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Domine', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+nav {
+    margin: 0px;
+    padding: 10px;
+    background-color: var(--ligth);
+}
+
+nav > h2{
+    font-size: 50px;
+    font-family: 'Alkatra', cursive;
+    
+}
