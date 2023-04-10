@@ -15,7 +15,7 @@ const Main = () => {
 
     useEffect(_ => {
         // filtered based on Description or Aliases or Category
-        const searched = list.filter(searchEmoji => {
+        const searched = emojiList.filter(searchEmoji => {
             if (searchEmoji.emoji === keyword) {
                 return true;
             }
